@@ -1,0 +1,23 @@
+/* Explanatory rows that are not actions. */
+.tailscale-notice {
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+
+/* Devices that are not reachable right now. */
+.tailscale-offline {
+    opacity: 0.55;
+}
+
+.tailscale-warning {
+    font-size: 0.9em;
+}
+
+.tailscale-port-dialog .tailscale-port-entry {
+    margin-top: 12px;
+    min-width: 20em;
+}
+
+.tailscale-port-dialog .tailscale-funnel-check {
+    margin-top: 12px;
+}

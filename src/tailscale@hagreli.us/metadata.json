@@ -1,0 +1,9 @@
+{
+  "uuid": "tailscale@hagreli.us",
+  "name": "Tailscale",
+  "description": "Control Tailscale from the Quick Settings panel: connect and disconnect, browse tailnet devices and copy their addresses, open a Tailscale SSH session, pick an exit node, and manage `tailscale serve`.\n\nRequires the tailscale CLI and daemon. Changing settings requires your user to be the Tailscale operator: sudo tailscale set --operator=$USER",
+  "shell-version": ["48", "49", "50"],
+  "url": "https://github.com/mhagrelius/tailscale-gnome",
+  "settings-schema": "org.gnome.shell.extensions.tailscale",
+  "gettext-domain": "tailscale@hagreli.us"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.tailscale"
+          path="/org/gnome/shell/extensions/tailscale/">
+
+    <key name="ssh-user" type="s">
+      <default>''</default>
+      <summary>SSH user name</summary>
+      <description>User name to connect as when opening a Tailscale SSH session. Empty means the local user name.</description>
+    </key>
+
+    <key name="terminal-command" type="s">
+      <default>''</default>
+      <summary>Terminal command</summary>
+      <description>Command used to open an SSH session, with the command to run appended as trailing arguments. Empty means auto-detect.</description>
+    </key>
+
+    <key name="show-offline-devices" type="b">
+      <default>true</default>
+      <summary>Show offline devices</summary>
+      <description>List devices that are currently offline alongside online ones.</description>
+    </key>
+
+    <key name="show-indicator" type="b">
+      <default>true</default>
+      <summary>Show panel indicator</summary>
+      <description>Show a Tailscale icon in the top bar while connected.</description>
+    </key>
+
+  </schema>
+</schemalist>
